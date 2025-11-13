@@ -1,0 +1,263 @@
+@media (min-width:1025px) {
+
+    .input-container input {
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        width: 60%;
+    }
+
+    .video-download-container h3 {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .video-title-container {
+        font-size: 1rem;
+
+    }
+
+    #title-tag {
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
+
+    #title {
+        font-size: 1rem;
+    }
+
+    .picture-one {
+        height: 50vh;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 15px;
+        padding: 0.5rem;
+        margin: 1rem auto;
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+
+
+    .video-download-container {
+        width: 70%;
+
+    }
+
+    .video-download-container h1 {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+
+    }
+
+    .video-download-container h3 {
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+
+    .input-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .input-container input {
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        width: 90%;
+        font-size: 0.9rem;
+        margin: 0.5rem;
+    }
+
+    .input-container button {
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        margin: 0.5rem;
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .video-download-container {
+        width: 90%;
+    }
+
+    .logo {
+        margin-left: 1rem;
+    }
+
+    .video-title-container {
+        font-size: 1rem;
+        display: block;
+
+    }
+
+    #title-tag {
+        margin-right: 1rem;
+        font-size: 0.7rem;
+
+    }
+
+    #title {
+        font-size: 0.7rem;
+    }
+
+    .title-tag {
+        width: fit-content;
+    }
+
+    .how-container {
+        width: 88%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    .how-container-elments {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .how-heading {
+        margin: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+
+
+    .image-elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 1.5rem;
+        margin: 1rem auto;
+    }
+
+
+}
+
+@media (max-width:576px) {
+
+
+    .header-items-container ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        z-index: 10000;
+        right: 1rem;
+        width: 200px;
+        background-color: rgb(61, 67, 73);
+        background: radial-gradient(circle at top left, #00bcd4 0%, rgb(61, 67, 73) 60%, rgb(70, 73, 77) 100%);
+        text-align: right;
+        padding: 10px;
+        border-radius: 1rem;
+
+    }
+
+    .header-items-container ul.active {
+        display: flex;
+    }
+
+    .hamburgur-icon {
+        float: right;
+        padding: 1rem;
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+    .hamburgur-icon {
+        color: #00bcd4;
+    }
+
+    .video-download-container h3 {
+        margin: 1.5rem;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+
+
+
+    .how-heading {
+        font-size: 1rem;
+    }
+
+    .image-elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+    }
+
+    .picture-one {
+        height: 60vh;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+
+    img {
+        margin-top: 1rem;
+    }
+
+    .about-paragraph {
+        padding: 1rem;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .bg-waves {
+        top: 10rem;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: auto;
+        text-align: left;
+    }
+
+    .footer-logo {
+        text-align: left;
+    }
+}
