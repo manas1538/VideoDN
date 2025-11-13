@@ -239,6 +239,9 @@
         justify-content: center;
         align-items: center;
     }
+    .about-paragraph p{
+        font-size: 1rem;
+    }
 
 
     .bg-waves {
