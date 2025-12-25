@@ -249,7 +249,7 @@
     }
 
     .l-p-heading h3 {
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
 
 
@@ -306,7 +306,15 @@
     }
 
     .u-g-card {
-        width: 45%;
+        width: 65%;
+    }
+
+    .u-g-heading{
+        font-size: 1rem;
+    }
+
+    .about-heading{
+        font-size: 1rem;
     }
 
     .about-app-container {
@@ -334,6 +342,12 @@
         height: 60px;
         font-size: 1.8rem;
     }
+
+    .a-a-card h2 {
+    font-size: 1.5rem;
+}
+
+    
 
 
     .legal-advice-container {
